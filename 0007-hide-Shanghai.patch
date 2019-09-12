@@ -1,0 +1,67 @@
+From efbd66f929f74376d116e87ed3a48a2f21ae861e Mon Sep 17 00:00:00 2001
+From: Bi Wenjie <wenjie.bi@cs2c.com.cn>
+Date: Wed, 2 Jan 2019 10:19:22 +0800
+Subject: [PATCH] hide Shanghai
+
+---
+ tzdata2018g-rearguard.dir/zone.tab     | 2 +-
+ tzdata2018g-rearguard.dir/zone1970.tab | 2 +-
+ zone.tab                               | 2 +-
+ zone1970.tab                           | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/tzdata2018g-rearguard.dir/zone.tab b/tzdata2018g-rearguard.dir/zone.tab
+index a114baf..5fabbd7 100644
+--- a/tzdata2018g-rearguard.dir/zone.tab
++++ b/tzdata2018g-rearguard.dir/zone.tab
+@@ -145,7 +145,7 @@ CL	-3327-07040	America/Santiago	Chile (most areas)
+ CL	-5309-07055	America/Punta_Arenas	Region of Magallanes
+ CL	-2709-10926	Pacific/Easter	Easter Island
+ CM	+0403+00942	Africa/Douala
+-CN	+3114+12128	Asia/Shanghai	Beijing Time
++#CN	+3114+12128	Asia/Shanghai	Beijing Time
+ CN	+3954+11623	Asia/Beijing	Beijing Time
+ #CN	+4348+08735	Asia/Urumqi	Xinjiang Time
+ CO	+0436-07405	America/Bogota
+diff --git a/tzdata2018g-rearguard.dir/zone1970.tab b/tzdata2018g-rearguard.dir/zone1970.tab
+index 24bda60..d69ad4a 100644
+--- a/tzdata2018g-rearguard.dir/zone1970.tab
++++ b/tzdata2018g-rearguard.dir/zone1970.tab
+@@ -137,7 +137,7 @@ CK	-2114-15946	Pacific/Rarotonga
+ CL	-3327-07040	America/Santiago	Chile (most areas)
+ CL	-5309-07055	America/Punta_Arenas	Region of Magallanes
+ CL	-2709-10926	Pacific/Easter	Easter Island
+-CN	+3114+12128	Asia/Shanghai	Beijing Time
++#CN	+3114+12128	Asia/Shanghai	Beijing Time
+ CN	+3954+11623	Asia/Beijing	Beijing Time
+ #CN	+4348+08735	Asia/Urumqi	Xinjiang Time
+ CO	+0436-07405	America/Bogota
+diff --git a/zone.tab b/zone.tab
+index a114baf..5fabbd7 100644
+--- a/zone.tab
++++ b/zone.tab
+@@ -145,7 +145,7 @@ CL	-3327-07040	America/Santiago	Chile (most areas)
+ CL	-5309-07055	America/Punta_Arenas	Region of Magallanes
+ CL	-2709-10926	Pacific/Easter	Easter Island
+ CM	+0403+00942	Africa/Douala
+-CN	+3114+12128	Asia/Shanghai	Beijing Time
++#CN	+3114+12128	Asia/Shanghai	Beijing Time
+ CN	+3954+11623	Asia/Beijing	Beijing Time
+ #CN	+4348+08735	Asia/Urumqi	Xinjiang Time
+ CO	+0436-07405	America/Bogota
+diff --git a/zone1970.tab b/zone1970.tab
+index 24bda60..d69ad4a 100644
+--- a/zone1970.tab
++++ b/zone1970.tab
+@@ -137,7 +137,7 @@ CK	-2114-15946	Pacific/Rarotonga
+ CL	-3327-07040	America/Santiago	Chile (most areas)
+ CL	-5309-07055	America/Punta_Arenas	Region of Magallanes
+ CL	-2709-10926	Pacific/Easter	Easter Island
+-CN	+3114+12128	Asia/Shanghai	Beijing Time
++#CN	+3114+12128	Asia/Shanghai	Beijing Time
+ CN	+3954+11623	Asia/Beijing	Beijing Time
+ #CN	+4348+08735	Asia/Urumqi	Xinjiang Time
+ CO	+0436-07405	America/Bogota
+-- 
+1.8.3.1
+
